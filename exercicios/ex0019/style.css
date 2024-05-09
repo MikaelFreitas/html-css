@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(54, 226, 34, 0.978);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgba(26, 106, 17, 0.978);
+}
+
+h1#principal{
+    font-family: 'Times New Roman', Times, serif;
+    font: italic, 400, 3em;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h2{
+    color: rgba(13, 54, 9, 0.978);
+}
+
+.basico{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(81, 164, 136);
+}
+
+.avançado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(59, 113, 95);
+}
