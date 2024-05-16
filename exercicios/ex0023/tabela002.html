@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightslategray;
+        }
+
+        thead, tfoot {
+            background-color: lightblue;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <table>
+
+        <caption>
+            População das Unidades-Federativas
+        </caption>
+
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th> 
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">123123133</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">123123213213213</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">12312321312321321312312</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">123123213123213312312</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">1231232132321321312312</td>
+            </tr>
+
+            <tr>
+                <td>Rio grande do sul</td>
+                <td class="num">123123213121321312312</td>
+            </tr>
+
+            <tr>
+                <td>Recife</td>
+                <td class="num">123123213121321312312</td>
+            </tr>
+
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">123123212321321312312</td>
+            </tr>
+
+            <tr>
+                <td>Mato grosso do sul</td>
+                <td class="num">123321312321321312312</td>
+            </tr>
+
+            <tr>
+                <td>Rio grande do norte</td>
+                <td class="num">123123213121321312312</td>
+            </tr>
+
+            <tr>
+                <td>Para</td>
+                <td class="num">1231232131232132112</td>
+            </tr>
+
+            <tr>
+                <td>Brasilia</td>
+                <td class="num">123123213123213213123</td>
+            </tr>
+
+            <tr>
+                <td>Amapa</td>
+                <td class="num">1221312321321312312</td>
+            </tr>
+
+            <tr>
+                <td>Goiania</td>
+                <td class="num">11312321321312312</td>
+            </tr>
+
+            <tr>
+                <td>Goias</td>
+                <td class="num">12312312321321312312</td>
+            </tr>
+
+            <tr>
+                <td>Acre</td>
+                <td class="num">1231232131221312312</td>
+            </tr>
+
+            <tr>
+                <td>Vitoria</td>
+                <td class="num">123123213123213312312</td>
+            </tr>
+
+            <tr>
+                <td>Mato grosso</td>
+                <td class="num">123123213123213213</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>9999999999999999999</strong></td>
+            </tr>
+
+        </tfoot>
+
+
+    </table>
+</body>
+</html>
