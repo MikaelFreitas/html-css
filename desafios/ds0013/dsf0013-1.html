@@ -18,6 +18,16 @@
             text-align: center;
             padding: 10px;
         }
+
+        .nome {
+            width: 150px;
+        }
+
+        th {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
     
     </style>
 </head>
@@ -79,6 +89,63 @@
         <tr>
             <td colspan="4">N</td>
         </tr>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <td class="nome"><strong>Grupo</strong></td>
+                <td class="nome"><strong>Nomes</strong></td>
+                <td  class="nome"colspan="3"><strong>Filmes</strong></td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th class="nome" rowspan="3"><strong>Mulheres</strong></th>
+                <td class="nome">Ana Maria Santos</td>
+                <td class="nome">Alien</td>
+                <td class="nome">Rambo</td>
+                <td class="nome">Vingadores</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Beatriz Souza</td>
+                <td class="nome">Hulk</td>
+                <td class="nome">Inception</td>
+                <td class="nome">Batman</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Claudia Melo</td>
+                <td class="nome">Oblivion</td>
+                <td class="nome">Matrix</td>
+                <td class="nome">Batman</td>
+            </tr>
+
+            <tr>
+                <th class="nome" rowspan="3"><strong>Homens</strong></th>
+                <td class="nome">Bruno Mendonça</td>
+                <td class="nome">Intocáveis</td>
+                <td class="nome">Amnésia</td>
+                <td class="nome">Gladiador</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Daniel Lourenço</td>
+                <td class="nome">Wall-E</td>
+                <td class="nome">Oldboy</td>
+                <td class="nome">Dangal</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Fabiano Mota</td>
+                <td class="nome">Star Wars 5</td>
+                <td class="nome">Taxi Driver</td>
+                <td class="nome">Toy Story</td>
+            </tr>
+        </tbody>
+
     </table>
 
 </body>
